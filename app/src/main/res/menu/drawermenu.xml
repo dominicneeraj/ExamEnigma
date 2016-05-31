@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Home"
+        android:id="@+id/nav_item_home"
+        android:icon="@drawable/home"/>
+
+
+    <item android:title="Physics"
+        android:id="@+id/nav_item_event"
+        android:icon="@drawable/event"/>
+
+    <item android:title="Chemistry"
+        android:id="@+id/nav_item_sponsor"
+        android:icon="@drawable/sponsor"/>
+    <item
+        android:title="Mathematics"
+        android:id="@+id/nav_item_megashows"
+        android:icon="@drawable/megashow"/>
+
+    <item android:title="Ncert"
+        android:id="@+id/nav_item_guest"
+        android:icon="@drawable/guest"/>
+    <item
+        android:title="Lectures"
+        android:id="@+id/nav_item_workshop"
+        android:icon="@drawable/workshop"/>
+    <item
+        android:title="Question Papers"
+        android:id="@+id/nav_item_exhibitions"
+        android:icon="@drawable/exhibition"/>
+
+
+    <item
+        android:title="Contacts"
+        android:id="@+id/nav_item_contacts"
+        android:icon="@drawable/contact"/>
+
+</menu>

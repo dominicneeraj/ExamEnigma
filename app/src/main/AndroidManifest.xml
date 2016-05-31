@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="examenigma.in.examenigma">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ChemistryActivity"
+            android:theme="@style/SponsTheme" />
+        <activity
+            android:name=".PhysicsActivity"
+            android:theme="@style/SponsTheme" />
+        <activity
+            android:name=".MathsActivity"
+            android:theme="@style/SponsTheme" />
+        <activity
+            android:name=".NcertActivity"
+            android:theme="@style/SponsTheme" />
+        <activity
+            android:name=".LecturesActivity"
+            android:theme="@style/SponsTheme" />
+        <activity
+            android:name=".QuestionpaperActivity"
+            android:theme="@style/SponsTheme" />
+        <activity
+            android:name=".ContactActivity"
+            android:theme="@style/SponsTheme" />
+        <activity
+            android:name=".Physics.ElectricityActivity"
+            android:parentActivityName=".PhysicsActivity"
+            android:theme="@style/SponsTheme"/>
+        <activity
+            android:name=".Physics.StaticElectricityActivity"
+            android:parentActivityName=".Physics.ElectricityActivity"
+            android:theme="@style/SponsTheme"/>
+
+    </application>
+
+
+</manifest>
