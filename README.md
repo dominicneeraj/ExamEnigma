@@ -1,6 +1,6 @@
 # ExamEnigma
-Android App to serve as a basis for other data driven apps, like news app, magazines app
-Currently I have developed it as an app for My fellow classmates to use it as a platform for sharing notes and informations
+Android App to serve as a basis for other data driven apps, like news app, magazines app.
+Currently I have developed it as an app for My fellow classmates to use it as a platform for sharing notes and informations.
 For backend Django RESTFUll services has been used
 Link for API https://github.com/dominicneeraj/RESTaurant-API/tree/master/mining
 
